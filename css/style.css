@@ -31,7 +31,8 @@ a {
     background: var(--otherwise);
 }
 .container {
-    width: 1180px;
+    max-width: 1180px;
+    padding: 0 15px;
     /* height: 100%; */
     margin: 0 auto;
 }
@@ -134,7 +135,9 @@ a {
     content: '';
     position: absolute;
     height: 580px;
-    width: 620px;
+    max-width: 620px;
+    width: 100%;
+    overflow: hidden;
     border-radius: 50%;
     background: var(--otherwise);
     top: 13px;
@@ -146,7 +149,8 @@ a {
     position: absolute;
     z-index: -1;
     height: 577px;
-    width: 634px;
+    max-width: 634px;
+    width: 100%;
     border-radius: 2px;
     top: 70px;
     right: 0;
@@ -163,7 +167,8 @@ a {
     line-height: 67px;
     color: var(--green);
     font-weight: normal;
-    width: 525px;
+    max-width: 525px;
+    width: 100%;
 }
 .header__input {
     position: relative;
@@ -253,7 +258,8 @@ a {
     font-size: 18px;
     line-height: 26px;
     text-align: center;
-    width: 482px;
+    max-width: 482px;
+    width: 100%;
     margin-top: 20px;
 }
 .progress__cards {
@@ -274,6 +280,7 @@ a {
 }
 .progress__card_txt {
     width: 247px;
+
     font-size: 15px;
     color: var(--light);
     text-align: center;
@@ -300,16 +307,17 @@ a {
 .changes__bgg {
     display: flex;
     justify-content: center;
+    margin-top: 65px;
 }
 .changes__bg {
     position: relative;
-    top: 65px;
     z-index: -1;
     max-width: 1057px;
     width: 95%;
 }
 .changes__title {
-    width: 465px;
+    max-width: 465px;
+    width: 100%;
     font-size: 40px;
     line-height: 48px;
     text-align: center;
@@ -319,7 +327,8 @@ a {
 }
 .changes__content {
     position: absolute;
-    width: 480px;
+    max-width: 480px;
+    width: 100%;
     height: 400px;
     background: var(--green);
     color: var(--textHov);
@@ -370,7 +379,8 @@ a {
     position: relative;
 }
 .indicators__content {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     row-gap: 20px;
@@ -380,13 +390,15 @@ a {
     color: var(--dark);
     font-size: 40px;
     line-height: 48px;
-    width: 467px;
+    max-width: 467px;
+    width: 100%;
 }
 .indicators__con_txt {
     color: var(--light);
     font-size: 17px;
     line-height: 26px;
-    width: 490px;
+    max-width: 490px;
+    width: 100%;
 }
 .indicators__img {
     margin: -45px auto;
@@ -400,7 +412,7 @@ a {
 }
 .indicators__shares_card {
     width: 140px;
-    
+    height: 74px;
 }
 .indicators__percentage {
     font-size: 32px;
@@ -428,7 +440,8 @@ a {
     font-weight: 400;
     text-align: center;
     color: var(--dark);
-    width: 545px;
+    width: 100%;
+    max-width: 545pc;
 }
 .care__title_txt {
     font-size: 18px;
@@ -436,7 +449,8 @@ a {
     line-height: 26px;
     text-align: center;
     font-weight: 400;
-    width: 518px;
+    max-width: 518px;
+    width: 100%;
 }
 .care__cards {
     display: flex;
@@ -484,7 +498,8 @@ a {
     font-weight: 400;
     text-align: center;
     color: var(--dark);
-    width: 536px;
+    max-width: 536px;
+    width: 100%;
 }
 .partnering__title_txt {
     font-size: 18px;
@@ -492,7 +507,8 @@ a {
     color: var(--light);
     text-align: center;
     font-weight: 400;
-    width: 506px;
+    max-width: 506px;
+    width: 100%;
 }
 .partnering__boxes {
     display: flex;
@@ -502,7 +518,8 @@ a {
     background: #FFFFFF;
     box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
-    width: 360px;
+    max-width: 360px;
+    width: 100%;
     height: 232px;
     display: flex;
     flex-direction: column;
@@ -548,7 +565,8 @@ a {
     text-align: center;
     font-weight: 400;
     color: var(--light);
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
 }
 .partnering__opinion {
     display: flex;
@@ -668,9 +686,9 @@ a {
     display: flex;
     flex-direction: column;
     row-gap: 24px;
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     height: 500px;
-    justify-content: center;
 }
 .about__found_title {
     font-size: 40px;
@@ -718,7 +736,8 @@ a {
 .about__getStarted_content {
     padding: 50px;
     border-radius: 4px;
-    width: 480px;
+    max-width: 480px;
+    width: 100%;
     height: 420px;
     background: #fff;
     position: absolute;
