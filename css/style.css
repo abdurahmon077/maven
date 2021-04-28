@@ -441,7 +441,7 @@ a {
     text-align: center;
     color: var(--dark);
     width: 100%;
-    max-width: 545pc;
+    max-width: 545px;
 }
 .care__title_txt {
     font-size: 18px;
